@@ -1,0 +1,29 @@
+#main-header a.btn-signin {
+    color: #fff;
+}
+
+#main-header a.btn-signin:hover {
+    color: #333;
+}
+
+#main-header a.btn-signin {
+    margin-left: 20px;
+}
+
+.home-top .cover > img {
+    max-width: 390px;
+}
+
+.box {
+    padding: 60px 0;
+    border: 1px solid #e5e5e5;
+}
+
+@media(max-width: 991px) {
+    #main-header a.btn-signin {
+        margin-left: 0px;
+    }
+    .home-top .cover > img {
+        max-width: 410px;
+    }
+}
